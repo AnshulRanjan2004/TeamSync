@@ -49,7 +49,7 @@ export default function Navbar({ documents }) {
                                 <div className="flex-shrink-0 ">
                                     <Link href="/">
                                         <div className="text-white font-Montserrat:wght@300  font-bold text-2xl">
-                                            HackBud
+                                            TeamSync
                                         </div>
                                     </Link>
                                 </div>

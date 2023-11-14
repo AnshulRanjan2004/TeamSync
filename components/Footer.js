@@ -5,10 +5,9 @@ export default function Footer() {
         <div className="flex justify-center text-center font-normal text-white">
           <span className="font-normal">© 2023 </span>
           <Link
-            href="https://github.com/Utkarshn10"
+            href="https://github.com"
             className="ml-1  hover:underline underline-offset-2"
           >
-            Utkarsh Nagar
           </Link>
           <span className="ml-1">· All rights reserved.</span>
         </div>

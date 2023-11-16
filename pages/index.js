@@ -6,11 +6,11 @@ import Header from '@/components/Header'
 import Features from '@/components/Features'
 
 export default function Home() {
-    const pageTitle = 'HackBud - Building Hackathon Teams Made Easy'
+    const pageTitle = 'TeamSync - Building Hackathon Teams Made Easy'
     const pageDescription =
-        'Find your dream hackathon team effortlessly with HackBud. Connect with like-minded hackers and make teamwork a breeze. Join us today!'
+        'Find your dream hackathon team effortlessly with TeamSync. Connect with like-minded hackers and make teamwork a breeze. Join us today!'
     const imageUrl = '[Insert the URL of your social media share image]'
-    const pageUrl = 'https://hack-bud.vercel.app/'
+    const pageUrl = '/'
 
     return (
         <>
@@ -35,13 +35,12 @@ export default function Home() {
                 <meta name="twitter:description" content={pageDescription} />
                 <meta name="twitter:image" content={imageUrl} />
                 <meta name="twitter:url" content={pageUrl} />
-                <meta name="author" content="Utkarsh Nagar" />
+                <meta name="author" content="Anshul Ranjan" />
             </Head>
 
             <div className="w-full bg-[#0F172A]">
                 <Header />
                 <Features />
-                <Faq />
             </div>
         </>
     )

@@ -19,7 +19,7 @@ export default function Header() {
                             Hackathon
                         </span>
                         Game{' '}
-                        <p className="flex justify-center mt-2">with HackBud</p>
+                        <p className="flex justify-center mt-2">with TeamSync</p>
                     </div>
                 </div>
                 <div className="flex justify-center items-center px-10 md:px-0 text-sm md:text-xl md:leading-8 my-6 flex-col text-slate-400">
@@ -27,15 +27,11 @@ export default function Header() {
                         Building a team for Hackathons just became a lot easier
                     </p>
                     <button
-                        onClick={() => handleGitHubLogin()}
                         className="flex mt-5 md:mb-0 items-center rounded-xl py-4 px-4 justify-center font-lato text-white bg-violet-600 hover:bg-violet-900 text-sm md:text-lg font-normal"
                     >
                         Get started for Free
                     </button>
                 </div>
-                <p className="my-5 text-slate-400 flex justify-center">
-                    70+ Hackathon Enthusiasts already joined!
-                </p>
             </div>
         </div>
     )

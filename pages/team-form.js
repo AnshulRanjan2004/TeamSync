@@ -110,7 +110,7 @@ const Form = () => {
         <div className="w-full">
             <form className="flex items-center justify-center w-full min-h-screen py-2 flex-col mb-8 px-4 md:px-0">
                 <h1 className="text-xl font-bold text-center text-white mt-6 mb-10">
-                    Find your HackBuds
+                    Find your Teammates
                 </h1>
                 <div className="grid grid-cols-2 gap-4">
                     <div className="mb-4 col-span-2">

@@ -189,7 +189,7 @@ export default function Navbar({ documents }) {
                         <div className="flex h-16 items-center ml-3">
                             <Link href="/">
                                 <div className="text-white font-Montserrat:wght@300 font-bold text-2xl flex justify-start">
-                                    HackBud
+                                    TeamSync
                                 </div>
                             </Link>
                         </div>

@@ -11,7 +11,7 @@ export default function Home() {
         'Find your dream hackathon team effortlessly with TeamSync. Connect with like-minded hackers and make teamwork a breeze. Join us today!'
     const imageUrl = '[Insert the URL of your social media share image]'
     const pageUrl = '/'
-
+    console.log("Test Passed")
     return (
         <>
             <Head>

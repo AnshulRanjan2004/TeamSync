@@ -85,6 +85,8 @@ const Form = () => {
             })
     }
 
+    console.log("Test Passed")
+
     return (
         <div className="w-full">
             <form className="flex items-center justify-center w-full min-h-screen py-2 flex-col mb-8">
